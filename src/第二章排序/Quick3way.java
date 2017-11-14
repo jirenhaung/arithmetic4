@@ -1,4 +1,4 @@
-package µÚ¶şÕÂÅÅĞò;
+package ç¬¬äºŒç« æ’åº;
 
 public class Quick3way {
 	public static void sort(Comparable[] a,int lo,int hi)

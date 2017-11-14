@@ -1,4 +1,4 @@
-package µÚ¶şÕÂÅÅĞò;
+package ç¬¬äºŒç« æ’åº;
 
 public class Quick {
 	public static void sort(Comparable[] a){
@@ -6,7 +6,7 @@ public class Quick {
 	}
 	private static void sort(Comparable[] a,int lo,int hi){
 		if(hi<=lo) return;
-		//ÔÚÅÅĞòĞ¡Êı×éÊ±ÇĞ»»µ½²åÈëÅÅĞò£¬10¿ÉÒÔ»»³É5~15Ö®¼äµÄÈÎÒâÖµ¡£
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½Ê±ï¿½Ğ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½Ô»ï¿½ï¿½ï¿½5~15Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½
 		//if(hi<=lo+10){ insertion.sort(a); return;}
 		int j=partition(a,lo,hi);
 		sort(a, lo, j-1);
@@ -18,7 +18,7 @@ public class Quick {
 		while(true)
 		{
 			while(less(a[++i],v)) if(i==hi) break;
-			while(less(v,a[--j])) ;//if(j==lo) break;ÒòÎªÇĞ·ÖÔªËØ¾ÍÊÇa[lo],Ëû²»¿ÉÄÜ±È×Ô¼ºĞ¡¡£
+			while(less(v,a[--j])) ;//if(j==lo) break;ï¿½ï¿½Îªï¿½Ğ·ï¿½Ôªï¿½Ø¾ï¿½ï¿½ï¿½a[lo],ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü±ï¿½ï¿½Ô¼ï¿½Ğ¡ï¿½ï¿½
 			if(i>=j) break;
 			exch(a,i,j);
 		}

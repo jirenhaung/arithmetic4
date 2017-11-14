@@ -1,4 +1,4 @@
-package µÚ¶şÕÂÅÅĞò;
+package ç¬¬äºŒç« æ’åº;
 
 public class Selection {
 	public static void sort(Comparable[] a){
@@ -6,8 +6,8 @@ public class Selection {
 		for(int i=0;i<N;i++){
 			int min=i;
 			for(int j=i+1;j<N;j++)
-				if(less(a[j], a[min])) min=j;//Ã¿´ÎÑ­»·ÕÒµ½ºóÃæËùÓĞÔªËØÖĞ×îĞ¡µÄ
-			exch(a, i, min);//½»»»
+				if(less(a[j], a[min])) min=j;//Ã¿ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½
+			exch(a, i, min);//ï¿½ï¿½ï¿½ï¿½
 		}
 	}
 	private static boolean less(Comparable v,Comparable w){
